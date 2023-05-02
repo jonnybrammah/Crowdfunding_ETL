@@ -1,3 +1,7 @@
+/*Creating tables*/
+
+
+
 CREATE TABLE "campaign" (
   "cf_id" INT  NOT NULL PRIMARY KEY,
   "contact_id" INT  NOT NULL,
@@ -38,6 +42,18 @@ CREATE TABLE "contacts" (
         "contact_id"
      )
 );
+
+
+/*Importing Data from CSV first and then checking if it uploaded*/
+
+
+SELECT * FROM campaign;
+SELECT * FROM category;
+SELECT * FROM subcategory;
+SELECT * FROM contacts;
+
+/*Assigning primary and foreign keys*/
+
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_contact_id" FOREIGN KEY("contact_id")
 REFERENCES "contacts" ("contact_id");
 
