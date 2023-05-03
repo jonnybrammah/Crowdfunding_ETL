@@ -63,4 +63,4 @@ The ERD for these tables is shown below:
 
 #### Acknowledgements
 
-This work was a joint project completed with contributions from J. Brammah, A. Huhmer, A. Hussain, M. Naeem, and G. Jimenez.
+This work was a joint project completed with contributions from J. Brammah, A. Huhmer, A. Hussain, F. Crawford, M. Naeem, and G. Jimenez.
