@@ -50,3 +50,10 @@ The four csv files that we had gathered during our Extract and Transform section
 - categories.csv
 - subcategories.csv
 - contacts_option2.csv
+
+SQL queries were written to create necessary tables in pgAdmin, including identifying the primary key and linking these together with appropriate foreign keys. The data was then The ERD for these tables is shown below:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jonnybrammah/Crowdfunding_ETL/main/ERD.png">
+</p>
+
